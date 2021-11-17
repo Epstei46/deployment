@@ -2,36 +2,63 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Bungee Hairline', cursive;
 }
 
 body {
     background: rgb(235, 235, 235);
 }
 
+h1,h2,h3{
+    font-family: 'Bungee Shade', cursive;
+    line-height: 100%;
+}
+h4 {
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+
 header {
-    background: rgb(20, 135, 212, 0.75);
-    height: 80px;
+    background: rgb(20, 135, 212, 0);
+    color: rgb(29, 46, 202);
+    font-size: 95%;
+    height: 5vh;
+    position: fixed;
+    top: 0;
+    left: 0;
     display: flex;
     padding-left: 10px;
     align-items: center;
-    transition: all 1s;
 }
 
 section {
     height: 100vh;
     width: 100%;
+    padding-left: 10px;
     display: flex;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
 }
-
-#spacer{
-    height: 80px;
-}
-
 #hero {
     background: url("https://images.tennis.com/image/private/t_q-best/tenniscom-prd/cwuqwonmvjp1ea8erhkb.jpg");
     background-size: cover;
     background-attachment: fixed;
     background-position: center center;
+}
+#content {
+    background: url("https://tennishead.net/wp-content/uploads/2021/04/Kyrgios-Instagram.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center 0;
+    color: white;
+}
+
+div {
+    width: 33vw;
+    opacity: 1;
+}
+
+div p {
+    font-weight: 900;
+    line-height: 100%;
 }
