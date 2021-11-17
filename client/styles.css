@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(235, 235, 235);
+}
+
+header {
+    background: rgb(20, 135, 212, 0.75);
+    height: 80px;
+    display: flex;
+    padding-left: 10px;
+    align-items: center;
+    transition: all 1s;
+}
+
+section {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#spacer{
+    height: 80px;
+}
+
+#hero {
+    background: url("https://images.tennis.com/image/private/t_q-best/tenniscom-prd/cwuqwonmvjp1ea8erhkb.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
